@@ -1,10 +1,5 @@
-import { PlaceholderPage } from "@/components/placeholder-page";
+import { PeopleView } from "@/components/people/people-view";
 
 export default function PeoplePage() {
-  return (
-    <PlaceholderPage
-      title="People"
-      description="Connections CRM + funnel — list, search, filter, add/edit."
-    />
-  );
+  return <PeopleView />;
 }
