@@ -1,0 +1,56 @@
+{
+  "exportedAt": "2026-01-01T00:00:00.000Z",
+  "people": [
+    {
+      "name": "Jordan Placeholder",
+      "role": "VP of Fake Things",
+      "company": "Acme Testing Co",
+      "stage": "Conversing",
+      "source": "LinkedIn outreach",
+      "connected_date": "2025-11-03",
+      "last_contact_date": "2025-12-10",
+      "conversation_depth": "multi",
+      "asked_what_i_do": true,
+      "pain_point": "Struggling to track networking follow-ups",
+      "notes": "Sample record only - not a real person."
+    },
+    {
+      "name": "Riley Sample",
+      "role": "Head of Placeholder Data",
+      "company": "Example Widgets Inc",
+      "stage": "Nurturing",
+      "connected_date": "2025-09-15",
+      "conversation_depth": "single",
+      "notes": "Missing 'source' and 'asked_what_i_do' fields on purpose, to exercise the defensive defaults."
+    },
+    {
+      "name": "Casey Fixture",
+      "role": "Director of Made-Up Examples",
+      "company": "Test Labs LLC",
+      "stage": "SomeUnknownStage",
+      "source": "Referral",
+      "connected_date": "not-a-real-date",
+      "conversation_depth": "single",
+      "asked_what_i_do": "yes",
+      "notes": "Has an invalid stage, invalid date, and wrong-typed boolean on purpose, to exercise warning + fallback behavior."
+    }
+  ],
+  "posts": [
+    {
+      "date_posted": "2025-12-01",
+      "title": "How I built a fake networking tracker",
+      "views": 1200,
+      "likes": 84,
+      "comments": 12,
+      "shares": 3,
+      "notes": "Sample post - placeholder data only."
+    },
+    {
+      "date_posted": "2025-12-15",
+      "title": "Lessons from three months of placeholder outreach",
+      "views": "a lot",
+      "likes": 40,
+      "notes": "Missing 'comments'/'shares' and a wrong-typed 'views' on purpose, to exercise defensive defaults."
+    }
+  ]
+}
